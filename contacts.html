@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Soko</title>
+    <link rel="icon" href="./img-assets/logo1.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js" ></script>
+</head>
+<body>
+    <div class="page-loader">
+        <div class="loader"></div>
+    </div>
+    
+    
+    <main class="main-home">
+        <header class="header">
+            <section class="mobile-screen">
+                <div class="hamburger-menu">
+                    <button>
+                        <div class="menu-dash"></div>
+                        <div class="menu-dash"></div>
+                        <div class="menu-dash"></div>
+                    </button>
+                </div>
+                <p class="mobile-title"><i>Car Soko</i></p>
+            </section>
+            <nav class="nav nav-hidden">
+                <figure class="nav__fig">
+                    <img src="./img-assets/logo1.png" alt="logo">
+                    <p><i>Car Soko</i></p>
+                    </figure>
+                    <ul class="nav__ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            
+        <section class="contacts-page">
+            <h2 class="contacts-page__h2">Get in touch with us</h2>
+
+            <div class="working-hours">
+                <h3 class="hours__h3">Working Hours</h3>
+                <ul class="hours">
+                    <li>Monday - Friday: 9:00Am - 4:30Pm</li>
+                    <li>Saturday: 10:00Am - 2:00Pm</li>
+                    <li>Sunday: Closed</li>
+                    <li>Public Holidays: Closed</li>
+                </ul>
+            </div>
+            
+            <div class="forms">
+                <form name="appointment" id="appointment" class="appointment">
+                    <h3>Book an Appointment</h3>
+                    <label for="branch">Select branch</label>
+                    <select name="branch" id="branch">
+                        <option value="nairobi">Kilimani, Nairobi Kenya</option>
+                        <option value="johannesnurg">Jabel, Johannesburg <abbr title="South Africa">S.A</abbr></option>
+                        <option value="cairo">Limoni, Cairo Egypt</option>
+                        <option value="lagos">Palisi, Lagos Nigeria</option>
+                    </select>
+
+                    <label for="department">Select department</label>
+                    <select name="department" id="department">
+                        <option value="0">Select a Department</option>
+                        <option value="1">Customer Care and General Inquiry</option>
+                        <option value="2">Logistics Dept<abbr title="South Africa">S.A</abbr></option>
+                        <option value="3">Financial services</option>
+                        <option value="4">Insurance dervices Dept</option>
+                    </select>
+
+                    <div class="date">
+                        <label for="date">Reserve a date</label>
+                        <input type="datetime-local" name="date" id="date">
+                    </div>
+
+                    <div class="time">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" id="time">
+                    </div>
+
+                    <button id="appointment__btn">Submit</button>
+                </form>
+
+                <!-- Form -->
+                <form name="form" id="form" class="form">
+                    <h3>Send us a message</h3>
+                    <label class="name__label"   for="name">Name</label>
+                    <div class="form__name">
+                        <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    </div>
+                        
+                    <label for="email">Email</label>
+                    <div class="form__email">
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <hr>
+                    <h3>Message us</h3>
+                    <div class="form__textarea">
+                        <textarea name="message" id="message" placeholder="Enter your message" cols="33" rows="7"></textarea>
+                    </div>
+                    <button class="form__btn" type="submit" id="submit">Submit</button>    
+                </form>
+            </div>
+
+            <!-- Locations -->
+            <h3 class="locations__h3">Visit our offices</h3>
+            <section class="locations">
+                <div class="location">
+                    <p>404 Kibabi Place Kilimani</p>
+                    <p>Tel: 123-456-789</p>
+                    <p>Nairobi Kenya</p>
+                </div>
+            
+                <div class="location">
+                    <p>201 Jabel, Mandela Road</p>
+                    <p>Tel: 321-456-789</p>
+                    <p>Johannesburg SouthAfrica</p>
+                </div>
+            
+                <div class="location">
+                    <p>304 Palisi, Accra Road</p>
+                    <p>Tel: 213-456-789</p>
+                    <p>Lagos Nigeria</p>
+                </div>
+            
+                <div class="location">
+                    <p>204 Limoni, Pyramids Avenue</p>
+                    <p>Tel: 465-236-789</p>
+                    <p>Cairo Egypt</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <section class="legals">
+                <ul class="footer__legal-links">
+                    <li><a href="#">Jobs and Careers</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Legal information</a></li>
+                    <li><a href="#">Company Policies</a></li>
+                    
+                </ul>
+            </section>
+            
+            <!-- sitemap -->
+            <section class="sitemap">
+                <ul class="footer__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </section>
+
+            <section class="contact-details">
+                <div class="footer__logo">
+                    <img src="./img-assets/logo1.png" alt="logo">
+                    <p><i>Car Soko</i></p>
+                </div>
+                <div class="footer__phone">
+                    <p>Phone:  0795421xxx</p>
+                </div>
+
+                <div class="footer__ouremail">
+                    <p>carsoko@gmail.com</p>
+                </div>
+                <div class="social__links">
+                    <ul>
+                        <li><a href="#"><img src="./img-assets/ig.svg" alt="ig"></a></li>
+                        <li><a href="#"><img src="./img-assets/fb.svg" alt="fb"></a></li>
+                        <li><a href="#"><img src="./img-assets/x.svg" alt="x"></a></li>
+                        <li><a href="#"><img src="./img-assets/yt.svg" alt="yt"></a></li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+        <small id="copyright">Copyright &copy; Car Soko <span id="year"></span></small> 
+    </main>
+    
+</body>
+</html>
